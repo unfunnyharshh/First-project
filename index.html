@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f3efe7">
+  <title>Why Do I Exist?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="Return to the top">
+      <span class="brand-mark">∞</span>
+      <span>here now</span>
+    </a>
+    <a class="nav-link" href="#reflection">A quiet reflection</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="orbit" aria-hidden="true">
+        <span class="orbit-ring ring-one"></span>
+        <span class="orbit-ring ring-two"></span>
+        <span class="orbit-dot"></span>
+      </div>
+
+      <p class="eyebrow">A question without a single answer</p>
+      <h1 id="hero-title">Why do I<br><em>even exist?</em></h1>
+      <p class="hero-copy">
+        You are not a problem waiting to be solved. You are a life
+        unfolding—made of borrowed atoms, unfinished questions,
+        and the choices still ahead.
+      </p>
+      <a class="explore-button" href="#reflection">
+        Look a little closer
+        <span aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <section class="reflection" id="reflection" aria-labelledby="reflection-title">
+      <div class="section-heading">
+        <p class="eyebrow">Perhaps existence begins here</p>
+        <h2 id="reflection-title">Not in finding one perfect reason,<br>but in learning to notice.</h2>
+      </div>
+
+      <div class="thought-grid">
+        <article class="thought-card">
+          <span class="card-number">01</span>
+          <div class="card-icon" aria-hidden="true">◎</div>
+          <h3>You are here.</h3>
+          <p>No two people have ever experienced the world exactly as you do. That perspective is yours alone.</p>
+        </article>
+
+        <article class="thought-card">
+          <span class="card-number">02</span>
+          <div class="card-icon" aria-hidden="true">◌</div>
+          <h3>Meaning is made.</h3>
+          <p>Purpose is rarely discovered fully formed. It grows through what you care for and return to.</p>
+        </article>
+
+        <article class="thought-card">
+          <span class="card-number">03</span>
+          <div class="card-icon" aria-hidden="true">✦</div>
+          <h3>Your life has weight.</h3>
+          <p>A small kindness can quietly alter a whole future. Your presence leaves traces you may never see.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pause-section" aria-labelledby="pause-title">
+      <p class="eyebrow">One small reminder</p>
+      <blockquote id="pause-title">
+        “You do not have to earn<br>
+        the right to <span>exist.</span>”
+      </blockquote>
+      <p class="pause-copy">
+        You are allowed to be uncertain. You are allowed to begin again.
+        For this moment, let the question stay open.
+      </p>
+    </section>
+
+    <section class="next-step">
+      <p>Today, ask yourself:</p>
+      <button id="questionButton" type="button">What feels quietly meaningful?</button>
+      <p id="questionAnswer" class="question-answer" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>Stay curious.</span>
+    <span>There is more life left to notice.</span>
+  </footer>
+
+  <script src="first.js"></script>
+</body>
+</html>
